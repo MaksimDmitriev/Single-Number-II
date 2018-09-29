@@ -9,6 +9,7 @@ public class Main {
         System.out.println(singleNumber(nums));
     }
 
+    // https://leetcode.com/problems/single-number-ii/discuss/43297/Java-O(n)-easy-to-understand-solution-easily-extended-to-any-times-of-occurance
     public static int singleNumber(int[] nums) {
         int res = 0;
         for (int i = 0; i < 32; i++) {
